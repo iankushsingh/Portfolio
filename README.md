@@ -1,2 +1,2 @@
 # Portfolio
-**My Professional Portfolio that i will be wroking on**
+**My Professional Portfolio that i will be working on**
