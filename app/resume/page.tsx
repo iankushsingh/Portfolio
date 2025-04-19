@@ -72,7 +72,7 @@ export default function ResumePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  <Leetcode className="h-5 w-5" />
+                  <Linkedin className="h-5 w-5" />
                   <span className="sr-only">Leetcode</span>
                 </a>
                 <a
@@ -81,7 +81,7 @@ export default function ResumePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  <Hackerrank className="h-5 w-5" />
+                  <Linkedin className="h-5 w-5" />
                   <span className="sr-only">Hackerank</span>
                 </a>
               </div>
