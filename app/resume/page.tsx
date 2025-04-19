@@ -1,15 +1,16 @@
-import Image from "next/image"
-import SectionHeader from "@/components/section-header"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent } from "@/components/ui/card"
-import { Download, Mail, Phone, MapPin, Linkedin, Github } from "lucide-react"
+import React from "react";
+import Image from "next/image";
+import SectionHeader from "@/components/section-header";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent } from "@/components/ui/card";
+import { Download, Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
 
 export default function ResumePage() {
   return (
     <div className="container px-4 md:px-6 py-12">
       <SectionHeader title="My Resume" subtitle="Professional background and qualifications" centered />
 
-      <div className="flex justify-center mb-8">
+        <a href="https://drive.google.com/file/d/1Wk232HW_VF2DgEwxTe7o7udYo2MmfT3k/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
         <a href="https://drive.google.com/file/d/1Wk232HW_VF2DgEwxTe7o7udYo2MmfT3k/view?usp=drive_link" download>
           <Button className="rounded-full">
         <Download className="mr-2 h-4 w-4" />
@@ -73,7 +74,7 @@ export default function ResumePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                  <span className="sr-only">Leetcode</span>
                   <Leetcode className="h-5 w-5" />
                   <span className="sr-only">Leetcode</span>
                 </a>
@@ -82,7 +83,7 @@ export default function ResumePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
-                >
+                  <span className="sr-only">Hackerrank</span>
                   <Hackerrank className="h-5 w-5" />
                   <span className="sr-only">Hacekrrank</span>
                 </a>
