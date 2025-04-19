@@ -45,7 +45,7 @@ export default function HeroSection() {
                 Hi, I'm <span className="gradient-text">Ankush</span> Singh.
               </h1>
               <p className="mt-4 text-xl md:text-2xl text-muted-foreground">Cloud Engineer & Full Stack Developer</p>
-              <p className="mt-2 text-lg italic">"Success is Lonliness.🦁 "</p>
+              <p className="mt-2 text-lg italic">"Success is Lonliness. "</p> <p>🦁</p>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-6">
