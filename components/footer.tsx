@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Ankush Singh Bhadauriya</h3>
             <p className="text-muted-foreground">Cloud Engineer & Full Stack Developer</p>
-            <p className="text-muted-foreground mt-2">"Success is Lonliness.🦁"</p>
+            <p className="text-muted-foreground mt-2">"Enhance Yourself"</p>
           </div>
 
           <div>
@@ -85,6 +85,15 @@ export default function Footer() {
               >
                 <Code2 className="h-5 w-5" />
                 <span className="sr-only">LeetCode</span>
+              </Link>
+              <Link
+                href="https://www.hackerrank.com/profile/iankushsingh"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-primary transition-colors"
+              >
+                <Code2 className="h-5 w-5" />
+                <span className="sr-only">Hackerrank</span>
               </Link>
             </div>
             <p className="text-muted-foreground mt-4">Email: connectankush.07@gmail.com</p>
