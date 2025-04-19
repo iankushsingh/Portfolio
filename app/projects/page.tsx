@@ -8,30 +8,30 @@ export default function ProjectsPage() {
       title: "Weather Web App",
       description:
         "A responsive web application that provides real-time weather information for any location. Built with React and OpenWeather API.",
-      image: "/placeholder.svg?height=400&width=600",
-      githubUrl: "https://github.com/iankushsingh",
-      liveUrl: "https://example.com",
+      image: "/weather project.png?height=400&width=600",
+      githubUrl: "https://github.com/iankushsingh/weather-web2.0",
+      liveUrl: "https://iankushsingh.github.io/weather-web2.0/",
       technologies: ["React", "JavaScript", "API Integration", "Responsive Design"],
     },
     {
       id: "2",
+      title: "Portfolio Website",
+      description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS.",
+      image: "/portfolio ss dark.png?height=400&width=600",
+      githubUrl: "https://github.com/iankushsingh/portfolio-ankush",
+      liveUrl: "https://portfolio-ankush-phi.vercel.app/",
+      technologies: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
+    },
+    {
+      id: "3",
       title: "Machine Learning Project",
       description: "A machine learning project focused on predictive analytics. Currently a work in progress.",
       image: "/placeholder.svg?height=400&width=600",
       githubUrl: "https://github.com/iankushsingh",
-      liveUrl: "https://example.com",
+      liveUrl: "https://github.com/iankushsingh",
       technologies: ["Python", "TensorFlow", "Data Science", "Machine Learning"],
     },
-    {
-      id: "3",
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS.",
-      image: "/placeholder.svg?height=400&width=600",
-      githubUrl: "https://github.com/iankushsingh",
-      liveUrl: "https://example.com",
-      technologies: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
-    },
-    {
+    /*{
       id: "4",
       title: "E-commerce Dashboard",
       description: "An admin dashboard for an e-commerce platform with analytics and product management features.",
@@ -39,7 +39,7 @@ export default function ProjectsPage() {
       githubUrl: "https://github.com/iankushsingh",
       liveUrl: "https://example.com",
       technologies: ["React", "Node.js", "Express", "MongoDB"],
-    },
+    },*/
   ]
 
   return (
