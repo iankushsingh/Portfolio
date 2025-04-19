@@ -14,9 +14,6 @@ export default function ContactPage() {
           <CardContent className="p-6">
             <h3 className="text-xl font-bold mb-6">Get In Touch</h3>
             <ContactForm />
-            <div className="mt-4 text-sm text-muted-foreground">
-              <p>Your message will be sent directly to my email. I'll respond as soon as possible.</p>
-            </div>
           </CardContent>
         </Card>
 
@@ -103,6 +100,15 @@ export default function ContactPage() {
                 >
                   <Code2 className="h-5 w-5 mr-3 text-primary" />
                   <span>LeetCode</span>
+                </Link>
+                <Link
+                  href="https://www.hackerrank.com/profile/iankushsingh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center p-3 rounded-md hover:bg-muted transition-colors"
+                >
+                  <Code2 className="h-5 w-5 mr-3 text-primary" />
+                  <span>Hackerrank</span>
                 </Link>
               </div>
             </CardContent>
