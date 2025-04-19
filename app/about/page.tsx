@@ -12,7 +12,7 @@ export default function AboutPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
         <div className="relative mx-auto w-full max-w-md aspect-square rounded-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=400"
+            src="/public/profile photo portfolio sq.jpg?height=400&width=400"
             alt="Ankush Singh Bhadauriya"
             fill
             className="object-cover"
