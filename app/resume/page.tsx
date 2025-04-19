@@ -21,7 +21,7 @@ export default function ResumePage() {
           <div className="flex flex-col md:flex-row gap-8 mb-8">
             <div className="relative w-32 h-32 mx-auto md:mx-0 rounded-full overflow-hidden">
               <Image
-                src="/placeholder.svg?height=128&width=128"
+                src="/public/profile photo portfolio sq.jpg?height=128&width=128"
                 alt="Ankush Singh Bhadauriya"
                 fill
                 className="object-cover"
