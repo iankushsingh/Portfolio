@@ -42,7 +42,7 @@ export default function HeroSection() {
           >
             <div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                Hi, I'm <span className="gradient-text">Ankush</span> Singh
+                Hi, I'm <span className="gradient-text">Ankush</span> Singh.
               </h1>
               <p className="mt-4 text-xl md:text-2xl text-muted-foreground">Cloud Engineer & Full Stack Developer</p>
               <p className="mt-2 text-lg italic">"Success is Lonliness.🦁 "</p>
