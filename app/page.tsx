@@ -59,7 +59,7 @@ export default function Home() {
             <ProjectCard
               title="Portfolio Website"
               description="A modern, responsive portfolio website built with Next.js and Tailwind CSS."
-              image="/portfolio ss dark.png?height=400&width=600"
+              image="/portfolio ss light.png?height=400&width=600"
               githubUrl="https://github.com/iankushsingh/portfolio-ankush"
               liveUrl="https://portfolio-ankush-phi.vercel.app/"
               technologies={["Python", "TensorFlow", "Data Science"]}
