@@ -94,7 +94,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="fixed inset-0 top-16 z-40 bg-background md:hidden">
+        <div className="fixed inset-0 top-16 z-40 bg-background/95 backdrop-blur-sm md:hidden">
           <nav className="container flex flex-col py-8">
             {navLinks.map((link) => (
               <Link
