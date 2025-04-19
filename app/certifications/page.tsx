@@ -30,6 +30,15 @@ export default function CertificationsPage() {
     
     {
       id: "4",
+      title: "Campus Ambassador Certificate",
+      issuer: "Underrated Coder",
+      date: "Jan 2025",
+      image: "/CA underrated coder certificate.png?height=600&width=800",
+    },
+    
+    {
+      
+      id: "5",
       title: "Twitter Bootstrap",
       issuer: "Infosys",
       date: "Jan 2025",
@@ -37,7 +46,7 @@ export default function CertificationsPage() {
     },
     
     {
-      id: "5",
+      id: "6",
       title: "CSS3",
       issuer: "Infosys",
       date: "Jan 2025",
@@ -45,7 +54,7 @@ export default function CertificationsPage() {
     },
     
     {
-      id: "6",
+      id: "7",
       title: "Python Part 2",
       issuer: "Infosys",
       date: "Jan 2025",
@@ -53,7 +62,7 @@ export default function CertificationsPage() {
     },
 
     {
-      id: "7",
+      id: "8",
       title: "Python Part 1",
       issuer: "Infosys",
       date: "Nov 2024",
@@ -61,7 +70,7 @@ export default function CertificationsPage() {
     },
     
     {
-      id: "8",
+      id: "9",
       title: "HTML5",
       issuer: "Infosys",
       date: "Nov 2024",
@@ -69,7 +78,7 @@ export default function CertificationsPage() {
     },
     
     {
-      id: "9",
+      id: "10",
       title: "Cannibals Internship",
       issuer: "Cannibals Media",
       date: "Sep 2024",
@@ -77,7 +86,7 @@ export default function CertificationsPage() {
     },
     
     {
-      id: "10",
+      id: "11",
       title: "Quantum Quest Ignita 2K24",
       issuer: "College",
       date: "Apr 2024",
