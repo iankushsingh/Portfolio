@@ -10,7 +10,7 @@ export default function ResumePage() {
       <SectionHeader title="My Resume" subtitle="Professional background and qualifications" centered />
 
       <div className="flex justify-center mb-8">
-        <a href="/ankush singh bhadauriya resume updated.pdf" download>
+        <a href="https://drive.google.com/file/d/1Wk232HW_VF2DgEwxTe7o7udYo2MmfT3k/view?usp=drive_link" download>
           <Button className="rounded-full">
         <Download className="mr-2 h-4 w-4" />
         Download Resume
