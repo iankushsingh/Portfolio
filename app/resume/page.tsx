@@ -10,11 +10,13 @@ export default function ResumePage() {
       <SectionHeader title="My Resume" subtitle="Professional background and qualifications" centered />
 
       <div className="flex justify-center mb-8">
-        <Button className="rounded-full">
-          <Download className="mr-2 h-4 w-4" />
-          Download Resume
-        </Button>
-      </div>
+        <a href="/ankush singh bhadauriya resume updated.pdf" download>
+          <Button className="rounded-full">
+        <Download className="mr-2 h-4 w-4" />
+        Download Resume
+          </Button>
+        </a>
+
 
       <Card className="max-w-4xl mx-auto">
         <CardContent className="p-6 md:p-8">
@@ -72,7 +74,7 @@ export default function ResumePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  <Linkedin className="h-5 w-5" />
+                  <Leetcode className="h-5 w-5" />
                   <span className="sr-only">Leetcode</span>
                 </a>
                 <a
@@ -81,7 +83,7 @@ export default function ResumePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  <Linkedin className="h-5 w-5" />
+                  <Hackerrank className="h-5 w-5" />
                   <span className="sr-only">Hacekrrank</span>
                 </a>
               </div>
