@@ -1,7 +1,6 @@
 "use server"
 
 import { z } from "zod"
-import emailjs from "@emailjs/nodejs"
 
 const formSchema = z.object({
   name: z.string().min(2),
@@ -17,39 +16,14 @@ export async function sendContactForm(formData: unknown) {
     throw new Error("Invalid form data")
   }
 
-  const { name, email, subject, message } = validatedFields.data
+  // In a real application, you would send an email here
+  // For example, using a service like Nodemailer, SendGrid, or EmailJS
 
-  try {
-    // Initialize EmailJS with your public key and private key
-    emailjs.init({
-      publicKey: process.env.EMAILJS_PUBLIC_KEY || "",
-      privateKey: process.env.EMAILJS_PRIVATE_KEY || "",
-    })
+  // For demonstration purposes, we'll just log the data and return a success
+  console.log("Form data received:", validatedFields.data)
 
-    // Prepare the template parameters
-    const templateParams = {
-      from_name: name,
-      from_email: email,
-      subject: subject,
-      message: message,
-      to_name: "Ankush Singh Bhadauriya",
-      reply_to: email,
-    }
+  // Simulate a delay to mimic sending an email
+  await new Promise((resolve) => setTimeout(resolve, 1000))
 
-    // Send the email using EmailJS
-    const response = await emailjs.send(
-      process.env.EMAILJS_SERVICE_ID || "",
-      process.env.EMAILJS_TEMPLATE_ID || "",
-      templateParams,
-    )
-
-    if (response.status === 200) {
-      return { success: true }
-    } else {
-      throw new Error("Failed to send email")
-    }
-  } catch (error) {
-    console.error("Error sending email:", error)
-    throw new Error("Failed to send email")
-  }
+  return { success: true }
 }
