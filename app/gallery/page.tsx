@@ -13,7 +13,7 @@ export default function GalleryPage() {
       id: "2",
       src: "/allenhouse photo gp.jpg?height=600&width=600",
       alt: "Allenhouse Event",
-      caption: "Tech event at Allenhouse, Kanpur",
+      caption: "Group Photo, Allemnhouse",
     },
     /*{
       id: "3",
