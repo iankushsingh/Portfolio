@@ -50,18 +50,18 @@ export default function Home() {
             <ProjectCard
               title="Weather Web App"
               description="A responsive web application that provides real-time weather information for any location. Built with React and OpenWeather API."
-              image="/placeholder.svg?height=400&width=600"
-              githubUrl="https://github.com/iankushsingh"
-              liveUrl="https://example.com"
+              image="/weather project.png?height=400&width=600"
+              githubUrl="https://github.com/iankushsingh/weather-web2.0"
+              liveUrl="https://iankushsingh.github.io/weather-web2.0/"
               technologies={["React", "JavaScript", "API Integration"]}
             />
 
             <ProjectCard
-              title="Machine Learning Project"
-              description="A machine learning project focused on predictive analytics. Currently a work in progress."
-              image="/placeholder.svg?height=400&width=600"
-              githubUrl="https://github.com/iankushsingh"
-              liveUrl="https://example.com"
+              title="Portfolio Website"
+              description="A modern, responsive portfolio website built with Next.js and Tailwind CSS."
+              image="/portfolio ss dark.png?height=400&width=600"
+              githubUrl="https://github.com/iankushsingh/portfolio-ankush"
+              liveUrl="https://portfolio-ankush-phi.vercel.app/"
               technologies={["Python", "TensorFlow", "Data Science"]}
             />
           </div>
