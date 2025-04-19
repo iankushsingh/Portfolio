@@ -16,7 +16,6 @@ export default function ResumePage() {
         </Button>
       </div>
 
-
       <Card className="max-w-4xl mx-auto">
         <CardContent className="p-6 md:p-8">
           <div className="flex flex-col md:flex-row gap-8 mb-8">
@@ -73,7 +72,7 @@ export default function ResumePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  <Leetcode className="h-5 w-5" />
+                  <Linkedin className="h-5 w-5" />
                   <span className="sr-only">Leetcode</span>
                 </a>
                 <a
@@ -82,7 +81,7 @@ export default function ResumePage() {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
-                  <Hackerrank className="h-5 w-5" />
+                  <Linkedin className="h-5 w-5" />
                   <span className="sr-only">Hacekrrank</span>
                 </a>
               </div>
