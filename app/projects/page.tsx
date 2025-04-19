@@ -27,7 +27,7 @@ export default function ProjectsPage() {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS.",
       image: "/placeholder.svg?height=400&width=600",
-      githubUrl: "https://github.com/iankushsingh",
+      githubUrl: "https://github.com/iankushsingh/portfolio-ankush",
       liveUrl: "https://example.com",
       technologies: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
     },
