@@ -69,7 +69,7 @@ export default function Footer() {
                 <span className="sr-only">Email</span>
               </Link>
               <Link
-                href="https://instagram.com/iankushsingh7"
+                href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -78,22 +78,13 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
-                href="https://leetcode.com/u/iankushsingh/"
+                href="https://leetcode.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Code2 className="h-5 w-5" />
                 <span className="sr-only">LeetCode</span>
-              </Link>
-              <Link
-                href="https://www.hackerrank.com/profile/iankushsingh"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-primary transition-colors"
-              >
-                <Code2 className="h-5 w-5" />
-                <span className="sr-only">Hackerrank</span>
               </Link>
             </div>
             <p className="text-muted-foreground mt-4">Email: connectankush.07@gmail.com</p>

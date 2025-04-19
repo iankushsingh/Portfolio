@@ -5,17 +5,17 @@ export default function GalleryPage() {
   const images = [
     {
       id: "1",
-      src: "/allenhouse photo.jpg?height=600&width=600",
+      src: "/placeholder.svg?height=600&width=600",
       alt: "Web Rachaiyata Contest",
       caption: "Participating in Web Rachaiyata contest at Allenhouse College",
     },
     {
       id: "2",
-      src: "/allenhouse photo gp.jpg?height=600&width=600",
-      alt: "Allenhouse Event",
-      caption: "Group Photo, Allemnhouse",
+      src: "/placeholder.svg?height=600&width=600",
+      alt: "College Event",
+      caption: "Tech event at PSIT, Kanpur",
     },
-    /*{
+    {
       id: "3",
       src: "/placeholder.svg?height=600&width=600",
       alt: "Coding Workshop",
@@ -56,7 +56,7 @@ export default function GalleryPage() {
       src: "/placeholder.svg?height=600&width=600",
       alt: "Networking Event",
       caption: "At a networking event with industry professionals",
-    },*/
+    },
   ]
 
   return (

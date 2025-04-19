@@ -45,7 +45,7 @@ export default function HeroSection() {
                 Hi, I'm <span className="gradient-text">Ankush</span> Singh
               </h1>
               <p className="mt-4 text-xl md:text-2xl text-muted-foreground">Cloud Engineer & Full Stack Developer</p>
-              <p className="mt-2 text-lg italic">"Success is Lonliness.🦁"</p>
+              <p className="mt-2 text-lg italic">"Enhance Yourself"</p>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-6">
@@ -107,7 +107,7 @@ export default function HeroSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
               <Image
-                src="/profile photo portfolio sq.jpg?height=320&width=320"
+                src="/placeholder.svg?height=320&width=320"
                 alt="Ankush Singh Bhadauriya"
                 fill
                 className="object-cover"

@@ -7,12 +7,12 @@ import { GraduationCap, BookOpen, Code, Lightbulb, Users } from "lucide-react"
 export default function AboutPage() {
   return (
     <div className="container px-4 md:px-6 py-12">
-      <SectionHeader title="About Me ❤️" subtitle="Get to know me better" centered />
+      <SectionHeader title="About Me" subtitle="Get to know me better" centered />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
         <div className="relative mx-auto w-full max-w-md aspect-square rounded-lg overflow-hidden">
           <Image
-            src="/profile photo portfolio sq.jpg?height=400&width=400"
+            src="/placeholder.svg?height=400&width=400"
             alt="Ankush Singh Bhadauriya"
             fill
             className="object-cover"

@@ -8,9 +8,9 @@ export default function ProjectsPage() {
       title: "Weather Web App",
       description:
         "A responsive web application that provides real-time weather information for any location. Built with React and OpenWeather API.",
-      image: "/weather project.png?height=400&width=600",
-      githubUrl: "https://github.com/iankushsingh/weather-web2.0",
-      liveUrl: "https://iankushsingh.github.io/weather-web2.0/",
+      image: "/placeholder.svg?height=400&width=600",
+      githubUrl: "https://github.com/iankushsingh",
+      liveUrl: "https://example.com",
       technologies: ["React", "JavaScript", "API Integration", "Responsive Design"],
     },
     {
@@ -27,11 +27,11 @@ export default function ProjectsPage() {
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website built with Next.js and Tailwind CSS.",
       image: "/placeholder.svg?height=400&width=600",
-      githubUrl: "https://github.com/iankushsingh/portfolio-ankush",
+      githubUrl: "https://github.com/iankushsingh",
       liveUrl: "https://example.com",
       technologies: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
     },
-    /*{
+    {
       id: "4",
       title: "E-commerce Dashboard",
       description: "An admin dashboard for an e-commerce platform with analytics and product management features.",
@@ -39,7 +39,7 @@ export default function ProjectsPage() {
       githubUrl: "https://github.com/iankushsingh",
       liveUrl: "https://example.com",
       technologies: ["React", "Node.js", "Express", "MongoDB"],
-    },*/
+    },
   ]
 
   return (
