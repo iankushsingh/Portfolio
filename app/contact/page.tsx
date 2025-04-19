@@ -83,7 +83,7 @@ export default function ContactPage() {
                 </Link>
 
                 <Link
-                  href="https://instagram.com"
+                  href="https://instagram.com/iankushsingh7"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center p-3 rounded-md hover:bg-muted transition-colors"
@@ -93,7 +93,17 @@ export default function ContactPage() {
                 </Link>
 
                 <Link
-                  href="https://leetcode.com"
+                  href="https://www.hackerrank.com/profile/iankushsingh"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center p-3 rounded-md hover:bg-muted transition-colors"
+                >
+                  <Hackerrank className="h-5 w-5 mr-3 text-primary" />
+                  <span>Hackerrank</span>
+                </Link>
+
+                <Link
+                  href="https://leetcode.com/u/iankushsingh/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center p-3 rounded-md hover:bg-muted transition-colors"
