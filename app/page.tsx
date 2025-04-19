@@ -14,7 +14,7 @@ export default function Home() {
       <section id="about-section" className="py-16 bg-muted/30 relative overflow-hidden">
         <div className="absolute inset-0 bg-dots-darker opacity-25"></div>
         <div className="container px-4 md:px-6 relative z-10">
-          <SectionHeader title="About Me" subtitle="Cloud Engineer & Full Stack Developer" centered />
+          <SectionHeader title="About Me ❤️" subtitle="Cloud Engineer & Full Stack Developer" centered />
 
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg mb-6">
