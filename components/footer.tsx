@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Ankush Singh Bhadauriya</h3>
             <p className="text-muted-foreground">Cloud Engineer & Full Stack Developer</p>
-            <p className="text-muted-foreground mt-2">"Enhance Yourself"</p>
+            <p className="text-muted-foreground mt-2">"Success is Lonliness.🦁"</p>
           </div>
 
           <div>
@@ -69,7 +69,7 @@ export default function Footer() {
                 <span className="sr-only">Email</span>
               </Link>
               <Link
-                href="https://instagram.com"
+                href="https://instagram.com/iankushsingh7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -78,7 +78,7 @@ export default function Footer() {
                 <span className="sr-only">Instagram</span>
               </Link>
               <Link
-                href="https://leetcode.com"
+                href="https://leetcode.com/u/iankushsingh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
