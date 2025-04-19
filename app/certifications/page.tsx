@@ -3,69 +3,7 @@ import CertificateCard from "@/components/certificate-card"
 
 export default function CertificationsPage() {
   const certificates = [
-    {
-      id: "9",
-      title: "Cannibals Internship",
-      issuer: "Cannibals Media",
-      date: "Sep 2024",
-      image: "/cannibals certificate.png?height=600&width=800",
-    },
-    {
-      id: "8",
-      title: "HTML5",
-      issuer: "Infosys",
-      date: "Nov 2024",
-      image: "/html5 certificate.png?height=600&width=800",
-    },
-    {
-      id: "7",
-      title: "Python Part 1",
-      issuer: "Infosys",
-      date: "Nov 2024",
-      image: "/python 1 certificate.png?height=600&width=800",
-    },
-    {
-      id: "6",
-      title: "Python Part 2",
-      issuer: "Infosys",
-      date: "Jan 2025",
-      image: "/python 2 certificate.png?height=600&width=800",
-    },
-    {
-      id: "5",
-      title: "CSS3",
-      issuer: "Infosys",
-      date: "Jan 2025",
-      image: "/css certificate.png?height=600&width=800",
-    },
-    {
-      id: "2",
-      title: "JavaScript",
-      issuer: "Infosys",
-      date: "Mar 2025",
-      image: "/js certificate.png?height=600&width=800",
-    },
-    {
-      id: "3",
-      title: "Python for Data Science",
-      issuer: "Infosys",
-      date: "Jan 2025",
-      image: "/Python for ds certificate.png?height=600&width=800",
-    },
-    {
-      id: "4",
-      title: "Twitter Bootstrap",
-      issuer: "Infosys",
-      date: "Jan 2025",
-      image: "/bootstrap certificate.png?height=600&width=800",
-    },
-    {
-      id: "10",
-      title: "Quantum Quest Ignita 2K24",
-      issuer: "College",
-      date: "Apr 2024",
-      image: "/ignitia24 certificate.png?height=600&width=800",
-    },
+    
     {
       id: "1",
       title: "Web Rachaiyata",
@@ -73,6 +11,79 @@ export default function CertificationsPage() {
       date: "May 2025",
       image: "/placeholder.svg?height=600&width=800",
     },
+    
+    {
+      id: "2",
+      title: "JavaScript",
+      issuer: "Infosys",
+      date: "Mar 2025",
+      image: "/js certificate.png?height=600&width=800",
+    },
+    
+     {
+      id: "3",
+      title: "Python for Data Science",
+      issuer: "Infosys",
+      date: "Jan 2025",
+      image: "/Python for ds certificate.png?height=600&width=800",
+    },
+    
+    {
+      id: "4",
+      title: "Twitter Bootstrap",
+      issuer: "Infosys",
+      date: "Jan 2025",
+      image: "/bootstrap certificate.png?height=600&width=800",
+    },
+    
+    {
+      id: "5",
+      title: "CSS3",
+      issuer: "Infosys",
+      date: "Jan 2025",
+      image: "/css certificate.png?height=600&width=800",
+    },
+    
+    {
+      id: "6",
+      title: "Python Part 2",
+      issuer: "Infosys",
+      date: "Jan 2025",
+      image: "/python 2 certificate.png?height=600&width=800",
+    },
+
+    {
+      id: "7",
+      title: "Python Part 1",
+      issuer: "Infosys",
+      date: "Nov 2024",
+      image: "/python 1 certificate.png?height=600&width=800",
+    },
+    
+    {
+      id: "8",
+      title: "HTML5",
+      issuer: "Infosys",
+      date: "Nov 2024",
+      image: "/html5 certificate.png?height=600&width=800",
+    },
+    
+    {
+      id: "9",
+      title: "Cannibals Internship",
+      issuer: "Cannibals Media",
+      date: "Sep 2024",
+      image: "/cannibals certificate.png?height=600&width=800",
+    },
+    
+    {
+      id: "10",
+      title: "Quantum Quest Ignita 2K24",
+      issuer: "College",
+      date: "Apr 2024",
+      image: "/ignitia24 certificate.png?height=600&width=800",
+    },
+    
   ]
 
   return (
