@@ -23,9 +23,16 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="relative min-h-[calc(100vh-4rem)] flex items-center">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-primary/20 via-background to-background"></div>
-      <div className="container px-4 md:px-6 py-10 md:py-16">
+    <section className="relative min-h-[calc(100vh-4rem)] flex items-center overflow-hidden">
+      {/* Animated background */}
+      <div className="absolute inset-0 -z-10">
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-background to-background"></div>
+        <div className="absolute top-20 right-20 w-72 h-72 bg-primary/20 rounded-full filter blur-3xl opacity-50 animate-blob"></div>
+        <div className="absolute bottom-20 left-20 w-72 h-72 bg-secondary/20 rounded-full filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
+        <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-accent/20 rounded-full filter blur-3xl opacity-50 animate-blob animation-delay-4000"></div>
+      </div>
+
+      <div className="container px-4 md:px-6 py-10 md:py-16 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -38,7 +45,7 @@ export default function HeroSection() {
                 Hi, I'm <span className="gradient-text">Ankush</span> Singh
               </h1>
               <p className="mt-4 text-xl md:text-2xl text-muted-foreground">Cloud Engineer & Full Stack Developer</p>
-              <p className="mt-2 text-lg italic">"Enhance Yourself"</p>
+              <p className="mt-2 text-lg italic">"Success is Lonliness.🦁"</p>
             </div>
 
             <div className="flex flex-wrap gap-3 mt-6">
@@ -60,7 +67,7 @@ export default function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
-                  "bg-background p-3 rounded-full border border-border",
+                  "bg-background/80 p-3 rounded-full border border-border backdrop-blur-sm",
                   "hover:border-primary hover:text-primary transition-colors",
                 )}
               >
@@ -72,7 +79,7 @@ export default function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
-                  "bg-background p-3 rounded-full border border-border",
+                  "bg-background/80 p-3 rounded-full border border-border backdrop-blur-sm",
                   "hover:border-primary hover:text-primary transition-colors",
                 )}
               >
@@ -82,7 +89,7 @@ export default function HeroSection() {
               <Link
                 href="mailto:connectankush.07@gmail.com"
                 className={cn(
-                  "bg-background p-3 rounded-full border border-border",
+                  "bg-background/80 p-3 rounded-full border border-border backdrop-blur-sm",
                   "hover:border-primary hover:text-primary transition-colors",
                 )}
               >
@@ -99,7 +106,13 @@ export default function HeroSection() {
             className="relative mx-auto"
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
-              <Image src="/profile photo portfolio sq.jpg" alt="Ankush Singh Bhadauriya" fill className="object-cover" priority />
+              <Image
+                src="/profile photo portfolio sq.jpg?height=320&width=320"
+                alt="Ankush Singh Bhadauriya"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
             <div className="absolute -inset-0.5 rounded-full bg-gradient-to-r from-primary to-secondary opacity-20 blur-xl -z-10"></div>
           </motion.div>
