@@ -11,8 +11,9 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <HeroSection />
 
-      <section id="about-section" className="py-16 bg-muted/30">
-        <div className="container px-4 md:px-6">
+      <section id="about-section" className="py-16 bg-muted/30 relative overflow-hidden">
+        <div className="absolute inset-0 bg-dots-darker opacity-25"></div>
+        <div className="container px-4 md:px-6 relative z-10">
           <SectionHeader title="About Me" subtitle="Cloud Engineer & Full Stack Developer" centered />
 
           <div className="max-w-3xl mx-auto text-center">
@@ -41,17 +42,17 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="container px-4 md:px-6">
+      <section className="py-16 relative">
+        <div className="container px-4 md:px-6 relative z-10">
           <SectionHeader title="Featured Projects" subtitle="Some of my recent work" centered />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
             <ProjectCard
               title="Weather Web App"
               description="A responsive web application that provides real-time weather information for any location. Built with React and OpenWeather API."
-              image="/placeholder.svg?height=400&width=600"
-              githubUrl="https://github.com/iankushsingh"
-              liveUrl="https://example.com"
+              image="/weather project.png?height=400&width=600"
+              githubUrl="https://github.com/iankushsingh/weather-web2.0"
+              liveUrl="https://iankushsingh.github.io/weather-web2.0/"
               technologies={["React", "JavaScript", "API Integration"]}
             />
 
@@ -59,7 +60,7 @@ export default function Home() {
               title="Machine Learning Project"
               description="A machine learning project focused on predictive analytics. Currently a work in progress."
               image="/placeholder.svg?height=400&width=600"
-              githubUrl="https://github.com/iankushsingh"
+              githubUrl="https://github.com/iankushsing"
               liveUrl="https://example.com"
               technologies={["Python", "TensorFlow", "Data Science"]}
             />
@@ -76,12 +77,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-muted/30">
-        <div className="container px-4 md:px-6">
+      <section className="py-16 bg-muted/30 relative overflow-hidden">
+        <div className="absolute inset-0 bg-dots-darker opacity-25 dark:bg-dots-lighter"></div>
+        <div className="container px-4 md:px-6 relative z-10">
           <SectionHeader title="Skills" subtitle="My technical expertise" centered />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            <div className="bg-card p-6 rounded-lg shadow-sm">
+            <div className="bg-card p-6 rounded-lg shadow-sm glass-card">
               <h3 className="text-xl font-semibold mb-4">Programming</h3>
               <div className="flex flex-wrap gap-2">
                 <SkillBadge name="Python" />
@@ -92,7 +94,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-card p-6 rounded-lg shadow-sm">
+            <div className="bg-card p-6 rounded-lg shadow-sm glass-card">
               <h3 className="text-xl font-semibold mb-4">Web Development</h3>
               <div className="flex flex-wrap gap-2">
                 <SkillBadge name="HTML" />
@@ -103,7 +105,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-card p-6 rounded-lg shadow-sm">
+            <div className="bg-card p-6 rounded-lg shadow-sm glass-card">
               <h3 className="text-xl font-semibold mb-4">Tools & Technologies</h3>
               <div className="flex flex-wrap gap-2">
                 <SkillBadge name="Git" />
@@ -113,7 +115,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-card p-6 rounded-lg shadow-sm">
+            <div className="bg-card p-6 rounded-lg shadow-sm glass-card">
               <h3 className="text-xl font-semibold mb-4">Soft Skills</h3>
               <div className="flex flex-wrap gap-2">
                 <SkillBadge name="Communication" />
@@ -135,8 +137,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16">
-        <div className="container px-4 md:px-6 text-center">
+      <section className="py-16 relative">
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-primary/5 to-background"></div>
+        <div className="container px-4 md:px-6 text-center relative z-10">
           <SectionHeader title="Let's Connect" subtitle="Interested in working together? Let's talk!" centered />
 
           <div className="max-w-md mx-auto">
