@@ -107,7 +107,7 @@ export default function HeroSection() {
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
               <Image
-                src="/public/profile photo portfolio sq.jpg?height=320&width=320"
+                src="/profile photo portfolio sq.jpg?height=320&width=320"
                 alt="Ankush Singh Bhadauriya"
                 fill
                 className="object-cover"
