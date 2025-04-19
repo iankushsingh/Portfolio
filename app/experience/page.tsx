@@ -18,7 +18,7 @@ export default function ExperiencePage() {
         <ExperienceCard
           title="Social Media Marketing Intern"
           company="Cannibals Media"
-          duration="August 2024"
+          duration="August 2024-September 2024"
           description="Worked as a Social Media Marketing Intern at Cannibals Media. Responsible for creating and managing social media content, analyzing engagement metrics, and implementing marketing strategies."
         />
       </div>
