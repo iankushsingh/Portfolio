@@ -22,7 +22,7 @@ export default function ProjectCard({
   technologies = [],
 }: ProjectCardProps) {
   return (
-    <Card className="overflow-hidden card-hover">
+    <Card className="overflow-hidden card-hover glass-card">
       <div className="relative h-48 w-full overflow-hidden">
         <Image
           src={image || "/placeholder.svg"}
