@@ -42,7 +42,7 @@ export default function CertificationsPage() {
       id: "6",
       title: "JavaScript",
       issuer: "Infosys",
-      date: "Mar 2025",
+      date: "Jan 2025",
       image: "/js certificate.png?height=600&width=800",
     },
     {
@@ -61,24 +61,24 @@ export default function CertificationsPage() {
     },
     {
       id: "9",
-      title: "Quantum Quest",
+      title: "Ignitia Certificate",
       issuer: "College",
       date: "Apr 2024",
       image: "/ignitia24 certificate.png?height=600&width=800",
     },
     {
       id: "10",
-      title: "Web Rachaiyata",
-      issuer: "Allenhouse College",
-      date: "Apr 2025",
-      image: "/placeholder.svg?height=600&width=800",
+      title: "Campus Ambassador Certificate",
+      issuer: "Underrated Coder",
+      date: "Jan 2025",
+      image: "/CA underrated coder certificate.png?height=600&width=800",
     },
     {
       id: "11",
       title: "Web Rachaiyata",
       issuer: "Allenhouse College",
-      date: "Jan 2025",
-      image: "/CA underrated coder certificate.png?height=600&width=800",
+      date: "May 2025",
+      image: "/placeholder.svg?height=600&width=800",
     },
   ]
 
