@@ -9,12 +9,15 @@ export default function ResumePage() {
     <div className="container px-4 md:px-6 py-12">
       <SectionHeader title="My Resume" subtitle="Professional background and qualifications" centered />
 
-      <div className="flex justify-center mb-8">
-        <Button className="rounded-full">
-          <Download className="mr-2 h-4 w-4" />
-          Download Resume
-        </Button>
-      </div>
+<div className="flex justify-center mb-8">
+  <Button 
+    className="rounded-full"
+    onClick={() => window.open("https://drive.google.com/file/d/1YRxc_BwmFR2f-YI2gMtmH1kOYp3eoKSr/view?usp=sharing", "_blank")}
+  >
+    <Download className="mr-2 h-4 w-4" />
+    Download Resume
+  </Button>
+</div>
 
       <Card className="max-w-4xl mx-auto">
         <CardContent className="p-6 md:p-8">
